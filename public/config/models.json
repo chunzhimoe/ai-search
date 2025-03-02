@@ -1,6 +1,8 @@
 {
   "models": [
   {
+    "id": "grok-2-vision-1212",
+    "name": "grok-2-vision-1212",
     "id": "gpt-3.5-turbo",
     "name": "gpt-3.5-turbo",
     "provider": "OpenAI Compatible",
@@ -9,6 +11,8 @@
     "toolCallType": "native"
   },
   {
+    "id": "grok-2-latest",
+    "name": "grok-2-latest",
     "id": "gpt-3.5-turbo-0301",
     "name": "gpt-3.5-turbo-0301",
     "provider": "OpenAI Compatible",
@@ -406,17 +410,12 @@
     "provider": "OpenAI Compatible",
     "providerId": "openai-compatible",
     "enabled": true,
+@@ -23,32 +417,48 @@
     "toolCallType": "native"
   },
   {
-    "id": "grok-2-1212",
-    "name": "grok-2-1212",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
+    "id": "grok-vision-beta",
+    "name": "grok-vision-beta",
     "id": "openai/gpt-4o",
     "name": "openai/gpt-4o",
     "provider": "OpenAI Compatible",
@@ -425,6 +424,8 @@
     "toolCallType": "native"
   },
   {
+    "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+    "name": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
     "id": "yi-lightning",
     "name": "yi-lightning",
     "provider": "OpenAI Compatible",
@@ -433,6 +434,8 @@
     "toolCallType": "native"
   },
   {
+    "id": "anthropic/claude-3.5-sonnet",
+    "name": "anthropic/claude-3.5-sonnet",
     "id": "gemini-1.0-pro-vision-001",
     "name": "gemini-1.0-pro-vision-001",
     "provider": "OpenAI Compatible",
@@ -441,6 +444,8 @@
     "toolCallType": "native"
   },
   {
+    "id": "deepclaude",
+    "name": "deepclaude",
     "id": "grok-2-latest",
     "name": "grok-2-latest",
     "provider": "OpenAI Compatible",
@@ -462,17 +467,12 @@
     "provider": "OpenAI Compatible",
     "providerId": "openai-compatible",
     "enabled": true,
+@@ -63,11 +473,60 @@
     "toolCallType": "native"
   },
   {
-    "id": "deepseek-ai/DeepSeek-R1",
-    "name": "deepseek-ai/DeepSeek-R1",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
+    "id": "openai/gpt-4o",
+    "name": "openai/gpt-4o",
     "id": "moeworld_m3e",
     "name": "moeworld_m3e",
     "provider": "OpenAI Compatible",
