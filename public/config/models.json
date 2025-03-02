@@ -1,532 +1,196 @@
 {
   "models": [
-  {
-    "id": "grok-2-vision-1212",
-    "name": "grok-2-vision-1212",
-    "id": "gpt-3.5-turbo",
-    "name": "gpt-3.5-turbo",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "grok-2-latest",
-    "name": "grok-2-latest",
-    "id": "gpt-3.5-turbo-0301",
-    "name": "gpt-3.5-turbo-0301",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gpt-3.5-turbo-0613",
-    "name": "gpt-3.5-turbo-0613",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gpt-3.5-turbo-16k",
-    "name": "gpt-3.5-turbo-16k",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gpt-4",
-    "name": "gpt-4",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gpt-4-32k",
-    "name": "gpt-4-32k",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-haiku-20240307",
-    "name": "claude-3-haiku-20240307",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-haiku-20241022",
-    "name": "claude-3-5-haiku-20241022",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-sonnet-20240229",
-    "name": "claude-3-sonnet-20240229",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-opus-20240229",
-    "name": "claude-3-opus-20240229",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-sonnet-20240620",
-    "name": "claude-3-5-sonnet-20240620",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-sonnet-20241022",
-    "name": "claude-3-5-sonnet-20241022",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-sonnet-latest",
-    "name": "claude-3-5-sonnet-latest",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gemini-pro",
-    "name": "gemini-pro",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-sonnet-latest",
-    "name": "claude-3-5-sonnet-latest",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-haiku-20241022",
-    "name": "claude-3-5-haiku-20241022",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-2.1",
-    "name": "claude-2.1",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-2.0",
-    "name": "claude-2.0",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-sonnet-20240229",
-    "name": "claude-3-sonnet-20240229",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-sonnet-20240620",
-    "name": "claude-3-5-sonnet-20240620",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-instant-1.2",
-    "name": "claude-instant-1.2",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-haiku-20240307",
-    "name": "claude-3-haiku-20240307",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-opus-20240229",
-    "name": "claude-3-opus-20240229",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "claude-3-5-sonnet-20241022",
-    "name": "claude-3-5-sonnet-20241022",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command",
-    "name": "command",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-nightly",
-    "name": "command-nightly",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-light",
-    "name": "command-light",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-light-nightly",
-    "name": "command-light-nightly",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-r",
-    "name": "command-r",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-r-plus",
-    "name": "command-r-plus",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-internet",
-    "name": "command-internet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-nightly-internet",
-    "name": "command-nightly-internet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-light-internet",
-    "name": "command-light-internet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-light-nightly-internet",
-    "name": "command-light-nightly-internet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-r-internet",
-    "name": "command-r-internet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "command-r-plus-internet",
-    "name": "command-r-plus-internet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepl-zh",
-    "name": "deepl-zh",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepl-en",
-    "name": "deepl-en",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepl-ja",
-    "name": "deepl-ja",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gemini-pro",
-    "name": "gemini-pro",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gemini-pro-vision",
-    "name": "gemini-pro-vision",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "yi-34b-chat-0205",
-    "name": "yi-34b-chat-0205",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "yi-34b-chat-200k",
-    "name": "yi-34b-chat-200k",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "yi-vl-plus",
-    "name": "yi-vl-plus",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepseek-chat",
-    "name": "deepseek-chat",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepseek-coder",
-    "name": "deepseek-coder",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "Qwen/Qwen1.5-72B-Chat",
-    "name": "Qwen/Qwen1.5-72B-Chat",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "grok-beta",
-    "name": "grok-beta",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "glm",
-    "name": "glm",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "qwen-chat",
-    "name": "qwen-chat",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "chatglm6b-3",
-    "name": "chatglm6b-3",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-@@ -23,32 +417,48 @@
-    "toolCallType": "native"
-  },
-  {
-    "id": "grok-vision-beta",
-    "name": "grok-vision-beta",
-    "id": "openai/gpt-4o",
-    "name": "openai/gpt-4o",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    "name": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    "id": "yi-lightning",
-    "name": "yi-lightning",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "anthropic/claude-3.5-sonnet",
-    "name": "anthropic/claude-3.5-sonnet",
-    "id": "gemini-1.0-pro-vision-001",
-    "name": "gemini-1.0-pro-vision-001",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepclaude",
-    "name": "deepclaude",
-    "id": "grok-2-latest",
-    "name": "grok-2-latest",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "grok-2-vision-1212",
-    "name": "grok-2-vision-1212",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "anthropic/claude-3.5-sonnet",
-    "name": "anthropic/claude-3.5-sonnet",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-@@ -63,11 +473,60 @@
-    "toolCallType": "native"
-  },
-  {
-    "id": "openai/gpt-4o",
-    "name": "openai/gpt-4o",
-    "id": "moeworld_m3e",
-    "name": "moeworld_m3e",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "grok-vision-beta",
-    "name": "grok-vision-beta",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "qwen-chat-int4",
-    "name": "qwen-chat-int4",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepseek-ai/DeepSeek-V3",
-    "name": "deepseek-ai/DeepSeek-V3",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "gemini-1.0-pro-001",
-    "name": "gemini-1.0-pro-001",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "deepclaude",
-    "name": "deepclaude",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  },
-  {
-    "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    "name": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
-    "provider": "OpenAI Compatible",
-    "providerId": "openai-compatible",
-    "enabled": true,
-    "toolCallType": "native"
-  }
-]
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "gpt-3.5-turbo",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-3.5-turbo-0301",
+      "name": "gpt-3.5-turbo-0301",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-3.5-turbo-0613",
+      "name": "gpt-3.5-turbo-0613",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-3.5-turbo-16k",
+      "name": "gpt-3.5-turbo-16k",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4",
+      "name": "gpt-4",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "gpt-4-32k",
+      "name": "gpt-4-32k",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "claude-3-5-sonnet-20241022",
+      "name": "claude-3-5-sonnet-20241022",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "claude-3-5-sonnet-latest",
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "claude-3-5-sonnet-latest",
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "claude-3-5-sonnet-20241022",
+      "name": "claude-3-5-sonnet-20241022",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "deepseek-chat",
+      "name": "deepseek-chat",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "deepseek-coder",
+      "name": "deepseek-coder",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "Qwen/Qwen1.5-72B-Chat",
+      "name": "Qwen/Qwen1.5-72B-Chat",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "grok-beta",
+      "name": "grok-beta",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "grok-vision-beta",
+      "name": "grok-vision-beta",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "name": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "anthropic/claude-3.5-sonnet",
+      "name": "anthropic/claude-3.5-sonnet",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-V3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "grok-2-vision-1212",
+      "name": "grok-2-vision-1212",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "openai/gpt-4o",
+      "name": "openai/gpt-4o",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "deepclaude",
+      "name": "deepclaude",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "grok-2-1212",
+      "name": "grok-2-1212",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "grok-2-latest",
+      "name": "grok-2-latest",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "deepseek-ai/DeepSeek-R1",
+      "name": "deepseek-ai/DeepSeek-R1",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    }
+  ]
 }
